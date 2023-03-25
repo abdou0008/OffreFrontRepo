@@ -1,0 +1,31 @@
+<div class="container">
+    <div class="container my-2">
+    
+        <h1>Liste des CV</h1>
+      <table class = "table">
+        <thead thead class="thead-dark">
+        <tr>
+          <th>
+            Prenom
+          </th>
+          <th>
+             Nom
+          </th>
+          <th>
+            Email
+          </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let c of listDemande">
+            <td>{{ c.prenom }}</td>
+            <td>{{ c.nom }}</td>
+            <td>{{ c.email }}</td>
+          </tr>
+        </tbody>
+      </table>
+
+      </div>
+   
+</div>
+
